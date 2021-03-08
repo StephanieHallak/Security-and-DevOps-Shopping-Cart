@@ -1,0 +1,33 @@
+2021-03-02 09:44:32,906 INFO com.example.demo.Application [main] Starting Application on Steph-MSI with PID 17520 (started by steph in C:\Users\steph\OneDrive\Desktop\STEPH\Work-Study-Learning\Java\Udacity\Java Web Dev Nanodegree\course4\P04-eCommerce Application)
+2021-03-02 09:44:32,916 DEBUG com.example.demo.Application [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-03-02 09:44:32,917 INFO com.example.demo.Application [main] No active profile set, falling back to default profiles: default
+2021-03-02 09:44:34,635 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-03-02 09:44:34,636 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-03-02 09:44:34,776 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-03-02 09:44:35,039 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-03-02 09:44:35,205 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-03-02 09:44:35,286 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-03-02 09:44:35,374 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2021-03-02 09:44:35,376 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2021-03-02 09:44:35,539 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-03-02 09:44:35,692 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-02 09:44:36,908 DEBUG com.example.demo.security.JWTAuthenticationVerficationFilter [main] Filter 'JWTAuthenticationVerficationFilter' configured for use
+2021-03-02 09:44:37,496 INFO com.example.demo.Application [main] Started Application in 4.968 seconds (JVM running for 5.313)
+2021-03-02 09:44:47,561 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-02 09:44:47,667 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-2] The username is set to steph
+2021-03-02 09:44:47,711 ERROR com.example.demo.controllers.UserController [http-nio-8080-exec-2] CreateUser request failures. Error with password, cannot create usersteph 
+2021-03-02 09:44:53,715 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-4] The username is set to steph
+2021-03-02 09:44:53,794 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-4] CreateUser request successes. User steph created successfully: 
+2021-03-02 09:45:06,738 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-5] HHH000397: Using ASTQueryTranslatorFactory
+2021-03-02 09:45:06,821 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-5] The username stephh is used to find the user
+2021-03-02 09:45:10,547 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-6] The username steph is used to find the user
+2021-03-02 09:45:25,319 INFO com.example.demo.controllers.CartController [http-nio-8080-exec-7] Add to cart request successes. Item with id 1 successfully added to cart
+2021-03-02 09:45:36,481 INFO com.example.demo.controllers.OrderController [http-nio-8080-exec-8] Submit order request successes, user steph found and order submitted, 
+2021-03-02 09:47:55,875 INFO com.example.demo.controllers.OrderController [http-nio-8080-exec-1] Order request successes, user steph found and order history got, 
+2021-03-02 09:48:02,655 ERROR com.example.demo.controllers.OrderController [http-nio-8080-exec-2] Order request failures. User stephh not found, 
+2021-03-02 10:00:26,219 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-5] The username is set to abd
+2021-03-02 10:00:26,286 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-5] CreateUser request successes. User abd created successfully: 
+2021-03-02 10:19:53,974 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-8] The username is set to test
+2021-03-02 10:19:54,043 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-8] CreateUser request successes. User test created successfully: 
